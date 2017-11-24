@@ -1,5 +1,7 @@
 package Strategy.Sample;
-
+/**
+ * 上下文
+ * */
 public class Player {
     private String name;
     private Strategy strategy;
@@ -30,4 +32,3 @@ public class Player {
         return "[" + name + ":" + gamecount + " games, " + wincount + " win, " + losecount + " lose" + "]";
     }
 }
-a

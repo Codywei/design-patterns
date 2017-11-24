@@ -1,5 +1,7 @@
 package Strategy.Q4;
-
+/**
+ * 选择排序
+ * */
 public class SelectionSorter implements Sorter {
     public void sort(Comparable[] data) {
         for (int i = 0; i < data.length - 1; i++) {

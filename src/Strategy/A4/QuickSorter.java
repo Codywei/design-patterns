@@ -1,5 +1,7 @@
 package Strategy.A4;
-
+/**
+ * 快速排序
+ * */
 public class QuickSorter implements Sorter {
     Comparable[] data;
     public void sort(Comparable[] data) {

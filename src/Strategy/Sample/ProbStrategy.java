@@ -1,7 +1,9 @@
 package Strategy.Sample;
 
 import java.util.Random;
-
+/**
+ * 具体策略
+ * */
 public class ProbStrategy implements Strategy {
     private Random random;
     private int prevHandValue = 0;

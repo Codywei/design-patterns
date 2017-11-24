@@ -1,5 +1,7 @@
 package Strategy.Sample;
-
+/**
+ * 实体类
+ * */
 public class Hand {
     public static final int HANDVALUE_GUU = 0;  // 表示石头的值
     public static final int HANDVALUE_CHO = 1;  // 表示剪刀的值
@@ -18,7 +20,7 @@ public class Hand {
     }
     public static Hand getHand(int handvalue) { // 根据手势的值获取其对应的实例
         return hand[handvalue];
-    }
+    }//返回hand实例
     public boolean isStrongerThan(Hand h) {     // 如果this胜了h则返回true
         return fight(h) == 1;
     }
