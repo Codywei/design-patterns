@@ -1,7 +1,5 @@
 package Interpreter.Sample;
-/**
- *   非终结符表达式
- **/
+
 // <program> ::= program <command list>
 public class ProgramNode extends Node {
     private Node commandListNode;

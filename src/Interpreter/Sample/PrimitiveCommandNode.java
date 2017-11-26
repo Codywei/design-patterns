@@ -1,6 +1,3 @@
-/**
- *    终结符表达式
- **/
 package Interpreter.Sample;
 
 // <primitive command> ::= go | right | left

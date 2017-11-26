@@ -2,9 +2,7 @@ package Interpreter.Sample;
 
 import java.util.*;
 import java.io.*;
-/**
- *    «Î«Û’ﬂ
- * */
+
 public class Main {
     public static void main(String[] args) {
         try {

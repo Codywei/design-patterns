@@ -1,7 +1,5 @@
 package Interpreter.Sample;
-/**
- *    非终结符表达式
- **/
+
 // <command> ::= <repeat command> | <primitive command>
 public class CommandNode extends Node {
     private Node node;

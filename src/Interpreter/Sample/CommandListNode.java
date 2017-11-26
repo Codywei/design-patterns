@@ -1,9 +1,7 @@
 package Interpreter.Sample;
 
 import java.util.ArrayList;
-/**
- *   非终结符表达式
- **/
+
 // <command list> ::= <command>* end
 public class CommandListNode extends Node {
     private ArrayList list = new ArrayList();

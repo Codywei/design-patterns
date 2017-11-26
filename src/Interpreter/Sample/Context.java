@@ -1,9 +1,7 @@
 package Interpreter.Sample;
 
 import java.util.*;
-/**
- *    иообнд
- * */
+
 public class Context {
     private StringTokenizer tokenizer;
     private String currentToken;
