@@ -10,7 +10,7 @@ public class TextBuilder extends Builder {
         buffer.append("\n");                                    // 换行
     }
     public void makeString(String str) {                        // 纯文本的字符串
-        buffer.append('■' + str + "\n");                       // 为字符串添加■
+        buffer.append('@' + str + "\n");                       // 为字符串添加■
         buffer.append("\n");                                    // 换行
     }
     public void makeItems(String[] items) {                     // 纯文本的条目
