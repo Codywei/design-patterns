@@ -1,7 +1,8 @@
-package Interpreter.Sample;
 /**
  *    终结符表达式
  **/
+package Interpreter.Sample;
+
 // <primitive command> ::= go | right | left
 public class PrimitiveCommandNode extends Node {
     private String name;
