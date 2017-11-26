@@ -1,6 +1,6 @@
 package Interpreter.Sample;
 /**
- *终结符表达式
+ *    终结符表达式
  **/
 // <primitive command> ::= go | right | left
 public class PrimitiveCommandNode extends Node {

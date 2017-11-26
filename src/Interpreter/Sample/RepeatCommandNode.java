@@ -1,6 +1,6 @@
 package Interpreter.Sample;
 /**
- *非终结符表达式
+ *   非终结符表达式
  **/
 // <repeat command> ::= repeat <number> <command list>
 public class RepeatCommandNode extends Node {
