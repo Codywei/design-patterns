@@ -1,7 +1,9 @@
 package Visitor.Sample;
 
 import java.util.Iterator;
-
+/**
+ * 元素
+ * */
 public abstract class Entry implements Element {
     public abstract String getName();                                   // 获取名字
     public abstract int getSize();                                      // 获取大小
