@@ -4,8 +4,10 @@ import java.util.Iterator;
 
 public class TableTray extends Tray {
     public TableTray(String caption) {
-        super(caption);                     // 使用super(...)表达式  
+        // 使用super(...)表达式
+        super(caption);
     }
+    @Override
     public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
         buffer.append("<td>");
@@ -16,7 +18,8 @@ public class TableTray extends Tray {
         Iterator it = tray.iterator();
         while (it.hasNext()) {
             Item item = (Item)it.next();
-            buffer.append(item.makeHTML());//交给item处理具体的类
+            //交给item处理具体的类
+            buffer.append(item.makeHTML());
         }
         buffer.append("</tr></table>");
         buffer.append("</td>");
