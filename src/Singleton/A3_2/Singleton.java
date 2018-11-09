@@ -1,5 +1,7 @@
 package Singleton.A3_2;
-
+/**
+ 懒汉式加载（线程安全，但是用synchronized太笨重）
+ * */
 public class Singleton {
     private static Singleton singleton = null;
     private Singleton() {

@@ -1,5 +1,7 @@
 package Singleton.Q3;
-
+/**
+ 懒汉式加载（线程不安全）
+ * */
 public class Singleton {
     private static Singleton singleton = null;
     private Singleton() {
